@@ -1,17 +1,4 @@
-## pyproject.toml
-
 [tool.poetry]
-name = "lets-simplejwt"
-version = "0.1.0"
-description = ""
-authors = ["hotbari <ghkahr01@naver.com>"]
-readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.12"
-
-
-[build-system][tool.poetry]
 name = "jwt"
 version = "0.1.0"
 description = ""
@@ -26,8 +13,5 @@ djangorestframework-simplejwt = "^5.3.1"
 
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
